@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfea5322-1353-4b3b-a5b0-46623e8b267d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/php4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php2.php" beforeDir="false" afterPath="$PROJECT_DIR$/php2.php" afterDir="false" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="php2.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="php2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="510">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -28,8 +29,17 @@
       <file leaf-file-name="php3.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="654">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="php4.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php4.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -71,8 +81,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/a.html" />
         <option value="$PROJECT_DIR$/php1.php" />
-        <option value="$PROJECT_DIR$/php3.php" />
         <option value="$PROJECT_DIR$/php2.php" />
+        <option value="$PROJECT_DIR$/php3.php" />
+        <option value="$PROJECT_DIR$/php4.php" />
       </list>
     </option>
   </component>
@@ -211,7 +222,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523595735327</updated>
-      <workItem from="1523595736911" duration="7363000" />
+      <workItem from="1523595736911" duration="9705000" />
     </task>
     <task id="LOCAL-00001" summary="[duplicate]php2.php duplicate to php3.php">
       <created>1523599847723</created>
@@ -255,11 +266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523601767443</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[fix] 配列の助長なコードを削除">
+      <created>1523603691761</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1523603691761</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7363000" />
+    <option name="totallyTimeSpent" value="9705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="25" width="1374" height="1174" extended-state="0" />
@@ -309,7 +327,8 @@
     <MESSAGE value="[add] index.html" />
     <MESSAGE value="[add] php3.phpにPOST機能を追加" />
     <MESSAGE value="[del] index.html削除" />
-    <option name="LAST_COMMIT_MESSAGE" value="[del] index.html削除" />
+    <MESSAGE value="[fix] 配列の助長なコードを削除" />
+    <option name="LAST_COMMIT_MESSAGE" value="[fix] 配列の助長なコードを削除" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -333,17 +352,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php3.php">
+    <entry file="file://$PROJECT_DIR$/php2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php2.php">
+    <entry file="file://$PROJECT_DIR$/php3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="654">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>

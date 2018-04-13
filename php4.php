@@ -56,25 +56,37 @@
 
         </table>
 
-        <form action="php3.php" method="post">
+        <form action="php4.php" method="post">
             名前<input type='text' name="name">
             住所<input type='text' name="address">
             電話<input type='text' name="phone">
             Email<input type='text' name="email">
             <input type="submit" name="submit" value="送信">
 
-        </form>
 
 
         <?php
-        if (isset($_POST[‘submit’])) {
+        if (isset($_POST[submit])) {
+            print($_POST[name]);
             $getPost =
             array("name" => $_POST['name'], "address" => $_POST['address'], "phone" => $_POST['phone'], "Email" => $_POST['email']);
             array_push($addresses, $getPost);
+
+            $str = "abcdefghijklmnopqrstuvwxyz";//文字列
+            $cut = 50000;//カットしたい文字数
+            $replace = substr( $str , 0 , strlen($str)-$cut );
+            echo $replace;//abcdefghijklmnopqrstuvwxy
+
             print_table($addresses);
+            $json = json_encode ( $getPost ,JSON_UNESCAPED_UNICODE);
+            print($json);
         }
         ?>
 
+        <?php
+
+        ?>
+        </form>
 
 </body>
 </html>
