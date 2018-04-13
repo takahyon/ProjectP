@@ -17,6 +17,13 @@
         array("name" => '工科花子', "address" => '北海道', "phone" => '987-654-3210', "Email" => 'hana@example.com'),
     );
 
+    if (isset($_POST[submit])) {
+
+        $getPost =
+            array("name" => $_POST['name'], "address" => $_POST['address'], "phone" => $_POST['phone'], "Email" => $_POST['email']);
+        array_push($addresses, $getPost);
+    }
+
     print_table($addresses);
     ?>
 
@@ -56,7 +63,7 @@
 
         </table>
 
-        <form action="php4.php" method="post">
+        <form action="php5.php" method="post">
             名前<input type='text' name="name">
             住所<input type='text' name="address">
             電話<input type='text' name="phone">
@@ -67,7 +74,7 @@
 
         <?php
         if (isset($_POST[submit])) {
-            print($_POST[name]);
+
             $getPost =
             array("name" => $_POST['name'], "address" => $_POST['address'], "phone" => $_POST['phone'], "Email" => $_POST['email']);
             array_push($addresses, $getPost);
@@ -77,9 +84,11 @@
             $replace = substr( $str , 0 , strlen($str)-$cut );
             echo $replace;//abcdefghijklmnopqrstuvwxy
 
-            print_table($addresses);
+
             $json = json_encode ( $getPost ,JSON_UNESCAPED_UNICODE);
             print($json);
+
+            file_put_contents("./json/addresses.json", $json);
         }
         ?>
 

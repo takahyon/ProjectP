@@ -17,6 +17,13 @@
         array("name" => '工科花子', "address" => '北海道', "phone" => '987-654-3210', "Email" => 'hana@example.com'),
     );
 
+    if (isset($_POST[submit])) {
+
+    $getPost =
+    array("name" => $_POST['name'], "address" => $_POST['address'], "phone" => $_POST['phone'], "Email" => $_POST['email']);
+    array_push($addresses, $getPost);
+
+    }
     print_table($addresses);
     ?>
 
@@ -42,14 +49,14 @@
 
 
 
-                echo "<tr>\n";
-                echo "<td>" . $v['name'] . "</td>\n";
-                echo "<td>" . $v['address'] . "</td>\n";
-                echo "<td>" . $v['phone'] . "</td>\n";
-                echo "<td>" . $v['Email'] . "</td>\n";
-                echo "</tr>\n";
+                    echo "<tr>\n";
+                    echo "<td>" . $v['name'] . "</td>\n";
+                    echo "<td>" . $v['address'] . "</td>\n";
+                    echo "<td>" . $v['phone'] . "</td>\n";
+                    echo "<td>" . $v['Email'] . "</td>\n";
+                    echo "</tr>\n";
 
-            }
+                }
             }
 
             ?>
@@ -63,18 +70,13 @@
             Email<input type='text' name="email">
             <input type="submit" name="submit" value="送信">
 
+
+
+
+            <?php
+
+            ?>
         </form>
-
-
-        <?php
-        if (isset($_POST[‘submit’])) {
-            $getPost =
-            array("name" => $_POST['name'], "address" => $_POST['address'], "phone" => $_POST['phone'], "Email" => $_POST['email']);
-            array_push($addresses, $getPost);
-            print_table($addresses);
-        }
-        ?>
-
 
 </body>
 </html>
