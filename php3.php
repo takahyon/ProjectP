@@ -8,7 +8,7 @@ $addresses = array(
 
 ?>
 
-<table>
+<table xmlns="http://www.w3.org/1999/html">
     <table border="1">
         <tr>
             <th>名前</th>
@@ -45,7 +45,17 @@ $addresses = array(
         住所<input type='text' name="address">
         電話<input type='text' name="phone">
         Email<input type='text' name="email">
+        <input type="submit" value="送信">
 
     </form>
     </body>
     </html>
+
+<?php
+if(isset($_POST[‘submit’])){
+    $comment = $_POST[‘comment’] + $addresses[$addresses.length];
+    echo $comment;
+    $addresses += array("name" => $_POST['name'], "address" => $_POST['address'], "phone" => $_POST['phone'], "Email" => $_POST['email');
+
+}
+?>
