@@ -3,9 +3,38 @@
 <head>
     <title></title>
     <meta charset="utf-8">
+
+
+    <?php
+    function print_table($addresses)
+    {
+        echo "<table border='1'>\n";
+        echo "<tr>";
+        echo "<th>名前</th>";
+        echo "<th>住所</th>";
+        echo "<th>電話</th>";
+        echo "<th>Email</th>";
+        echo " ";
+
+        foreach ($addresses as $v) {
+
+
+            echo "<tr>\n";
+            echo "<td>" . $v['name'] . "</td>\n";
+            echo "<td>" . $v['address'] . "</td>\n";
+            echo "<td>" . $v['phone'] . "</td>\n";
+            echo "<td>" . $v['Email'] . "</td>\n";
+            echo "</tr>\n";
+
+        }
+        echo "</table>";
+    }
+
+    ?>
+
+
 </head>
 <body>
-
 
 
 <table border="1">
@@ -24,43 +53,10 @@
         array_push($addresses, $getPost);
     }
     print_table($addresses);
+
+
     ?>
 
-
-
-    <table xmlns="http://www.w3.org/1999/html">
-        <table border="1">
-
-
-
-            <?php
-            function print_table($addresses)
-            {
-                echo "<table border='1'>\n";
-                echo "<tr>";
-                echo "<th>名前</th>";
-                echo "<th>住所</th>";
-                echo "<th>電話</th>";
-                echo "<th>Email</th>";
-                echo " ";
-
-                foreach ($addresses as $v) {
-
-
-
-                echo "<tr>\n";
-                echo "<td>" . $v['name'] . "</td>\n";
-                echo "<td>" . $v['address'] . "</td>\n";
-                echo "<td>" . $v['phone'] . "</td>\n";
-                echo "<td>" . $v['Email'] . "</td>\n";
-                echo "</tr>\n";
-
-            }
-            }
-
-            ?>
-
-        </table>
 
         <form action="php4.php" method="post">
             名前<input type='text' name="name">
@@ -70,27 +66,27 @@
             <input type="submit" name="submit" value="送信">
 
 
+            <?php
+            if (isset($_POST[submit])) {
+                print($_POST[name]);
+                $getPost =
+                    array("name" => $_POST['name'], "address" => $_POST['address'], "phone" => $_POST['phone'], "Email" => $_POST['email']);
+                array_push($addresses, $getPost);
 
-        <?php
-        if (isset($_POST[submit])) {
-            print($_POST[name]);
-            $getPost =
-            array("name" => $_POST['name'], "address" => $_POST['address'], "phone" => $_POST['phone'], "Email" => $_POST['email']);
-            array_push($addresses, $getPost);
+                $str = "abcdefghijklmnopqrstuvwxyz";//文字列
+                $cut = 50000;//カットしたい文字数
+                $replace = substr($str, 0, strlen($str) - $cut);
+                echo $replace;//abcdefghijklmnopqrstuvwxy
 
-            $str = "abcdefghijklmnopqrstuvwxyz";//文字列
-            $cut = 50000;//カットしたい文字数
-            $replace = substr( $str , 0 , strlen($str)-$cut );
-            echo $replace;//abcdefghijklmnopqrstuvwxy
+                $json = json_encode($addresses, JSON_UNESCAPED_UNICODE);
+                file_put_contents("addresses.json", $json);
+                print($json);
+            }
+            ?>
 
-            $json = json_encode ( $getPost ,JSON_UNESCAPED_UNICODE);
-            print($json);
-        }
-        ?>
+            <?php
 
-        <?php
-
-        ?>
+            ?>
         </form>
 
 </body>
