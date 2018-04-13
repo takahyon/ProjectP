@@ -8,7 +8,7 @@ $addresses = array(
 
 ?>
 
-<table xmlns="http://www.w3.org/1999/html">
+    <table xmlns="http://www.w3.org/1999/html">
     <table border="1">
         <tr>
             <th>名前</th>
@@ -52,8 +52,8 @@ $addresses = array(
     </html>
 
 <?php
-if(isset($_POST[‘submit’])){
-    $comment = $_POST[‘comment’] + $addresses[$addresses.length];
+if (isset($_POST[‘submit’])) {
+    $comment = $_POST[‘comment’] + $addresses[$addresses . length];
     echo $comment;
     $addresses += array("name" => $_POST['name'], "address" => $_POST['address'], "phone" => $_POST['phone'], "Email" => $_POST['email');
 
