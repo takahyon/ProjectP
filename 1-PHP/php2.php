@@ -29,9 +29,8 @@ $addresses = array(
 
         <?php
 
-        funtion($addresses){
+  //  funtion($addresses){
         foreach ($addresses as $v) {
-
 
             echo "<tr>\n";
             echo "<td>" . $v['name'] . "</td>\n";
@@ -40,11 +39,10 @@ $addresses = array(
             echo "<td>" . $v['Email'] . "</td>\n";
             echo "</tr>\n";
 
-        }
+         //   }
         }
 
         ?>
-
 
     </table>
 
