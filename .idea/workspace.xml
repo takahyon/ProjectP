@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfea5322-1353-4b3b-a5b0-46623e8b267d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/js3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/js4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/js2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/js2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,94 +13,115 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="php5.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/php5.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="php-advance-1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/php-advance-1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="html5-templeate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/html5-templeate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="php-advance-2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/php-advance-2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/js1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="php2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/php2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS/js2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/js3.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="php3.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/php3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="php4.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/php4.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.6378018">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="php5.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PHP/php5.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="php-advance-1.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PHP/php-advance-1.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="html5-templeate.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PHP/html5-templeate.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="php-advance-2.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PHP/php-advance-2.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="js1.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/JS/js1.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="php2.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PHP/php2.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" selection-start-line="8" selection-end-line="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="js3.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/JS/js3.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="437">
+                  <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="js4.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/JS/js4.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="php3.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PHP/php3.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="php4.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PHP/php4.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="688">
+                  <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="js2.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/JS/js2.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="57">
+                  <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,6 +162,8 @@
         <option value="$PROJECT_DIR$/1-PHP/php2.php" />
         <option value="$PROJECT_DIR$/2-js/js2.html" />
         <option value="$PROJECT_DIR$/JS/js2.html" />
+        <option value="$PROJECT_DIR$/JS/js3.html" />
+        <option value="$PROJECT_DIR$/JS/js4.html" />
       </list>
     </option>
   </component>
@@ -153,9 +175,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
     <option name="y" value="23" />
-    <option name="width" value="1500" />
+    <option name="width" value="1482" />
     <option name="height" value="1496" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -231,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.js2.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.js3.html">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -257,6 +278,7 @@
     <configuration name="js1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htdocs/2-js/js1.html" />
     <configuration name="js2.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htdocs/JS/js2.html" />
     <configuration name="js2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htdocs/2-js/js2.html" />
+    <configuration name="js3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htdocs/JS/js3.html" />
     <configuration name="php5.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/php5.php" />
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -300,9 +322,11 @@
       <item itemvalue="JavaScript Debug.js1.html" />
       <item itemvalue="JavaScript Debug.js2.html" />
       <item itemvalue="JavaScript Debug.js2.html (1)" />
+      <item itemvalue="JavaScript Debug.js3.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.js3.html" />
         <item itemvalue="JavaScript Debug.js2.html (1)" />
         <item itemvalue="JavaScript Debug.js2.html" />
         <item itemvalue="JavaScript Debug.js1.html" />
@@ -323,7 +347,7 @@
       <workItem from="1523595736911" duration="19904000" />
       <workItem from="1524189681077" duration="4982000" />
       <workItem from="1524199563533" duration="61000" />
-      <workItem from="1524199854483" duration="1760000" />
+      <workItem from="1524199854483" duration="5464000" />
     </task>
     <task id="LOCAL-00001" summary="[duplicate]php2.php duplicate to php3.php">
       <created>1523599847723</created>
@@ -444,14 +468,28 @@
       <option name="project" value="LOCAL" />
       <updated>1524202356353</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="[fix]コード修正(関数をheadへ)">
+      <created>1524202462828</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1524202462828</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[add]js3完成">
+      <created>1524207107286</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1524207107286</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26707000" />
+    <option name="totallyTimeSpent" value="30411000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1500" height="1496" extended-state="0" />
+    <frame x="0" y="23" width="1482" height="1496" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -468,7 +506,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2743484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2777778" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -509,7 +547,9 @@
     <MESSAGE value="[add]js課題2を追加" />
     <MESSAGE value="[Rename]Rename folder name to designated." />
     <MESSAGE value="[fix]js2を入力したテキストを表示できるように変更" />
-    <option name="LAST_COMMIT_MESSAGE" value="[fix]js2を入力したテキストを表示できるように変更" />
+    <MESSAGE value="[fix]コード修正(関数をheadへ)" />
+    <MESSAGE value="[add]js3完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add]js3完成" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PHP/php5.php">
@@ -702,17 +742,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/js1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/php-advance-2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/php-advance-1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -723,9 +763,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JS/js1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/js2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/php5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/php4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
+        <state relative-caret-position="688">
           <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
         </state>
       </provider>
@@ -737,27 +798,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/php-advance-1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/php5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS/js3.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/js2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="437">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/js4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
