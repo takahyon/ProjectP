@@ -3,11 +3,22 @@
 <head>
     <title></title>
     <meta charset="utf-8">
+
+    <?php
+    function makeJson($array)
+    {
+        $json = json_encode($array, JSON_UNESCAPED_UNICODE);
+        file_put_contents("addresses.json", $json);
+    }
+
+    ?>
+
+
 </head>
 <body>
 
 
-<table border="1">
+
 
     <?php
 
@@ -26,19 +37,18 @@
     }
 
 
-    if (isset($_POST[submit])) {
+    if (isset($_POST["name"])) {
 
         $getPost =
             array("name" => $_POST['name'], "address" => $_POST['address'], "phone" => $_POST['phone'], "Email" => $_POST['email']);
         array_push($obj, $getPost);
+        makeJson($obj);
     }
 
     print_table($obj);
 
-    makeJson($obj);
     ?>
 
-    <table border="1">;
 
 
         <?php
@@ -62,12 +72,12 @@
                 echo "<td>" . $v['Email'] . "</td>\n";
                 echo "</tr>\n";
 
+
             }
+            echo "</table>";
         }
 
         ?>
-
-    </table>
 
     <form action="php5.php" method="post">
         名前<input type='text' name="name">
@@ -78,15 +88,6 @@
 
 
     </form>
-
-    <?php
-    function makeJson($array)
-    {
-        $json = json_encode($array, JSON_UNESCAPED_UNICODE);
-        file_put_contents("addresses.json", $json);
-    }
-
-    ?>
 
 
 </body>
