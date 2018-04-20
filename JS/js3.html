@@ -5,15 +5,16 @@
     <title>テスト</title>
     <script language="JavaScript">
 
-        window.onload = function(){
-            document.getElementById('btn1').addEventListener("click",function () {
+        window.onload = function () {
+            document.getElementById('btn1').addEventListener("click", function () {
                 var check = document.getElementById('check');
 
-                if(check.checked == true){
-                    check.checked =false
-                }else{
-                    check.checked = true;
-                }
+               if(check.checked == true){
+                   check.checked =false
+             }else{
+               check.checked = true;
+         }
+
             })
         }
     </script>
@@ -22,7 +23,8 @@
 <body>
 
 <input type="checkbox" id="check"/>
-<button type="button" id="btn1" value="ON/OFF"/>ON/OFF</button>
+<button type="button" id="btn1" value="ON/OFF"/>
+ON/OFF</button>
 
 </body>
 </html>
