@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bfea5322-1353-4b3b-a5b0-46623e8b267d" name="Default" comment="[fix]4,5を修正">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/js1.html" afterPath="$PROJECT_DIR$/JS/js1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/js3.html" afterPath="$PROJECT_DIR$/JS/js3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/js4_client.html" afterPath="$PROJECT_DIR$/JS/js4_client.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/js4_server.php" afterPath="$PROJECT_DIR$/JS/js4_server.php" />
@@ -73,8 +72,8 @@
       <file leaf-file-name="js3.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/js3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -373,7 +372,7 @@
       <workItem from="1524199563533" duration="61000" />
       <workItem from="1524199854483" duration="6087000" />
       <workItem from="1524207907129" duration="2614000" />
-      <workItem from="1524210869578" duration="3098000" />
+      <workItem from="1524210869578" duration="3119000" />
     </task>
     <task id="LOCAL-00001" summary="[duplicate]php2.php duplicate to php3.php">
       <created>1523599847723</created>
@@ -536,11 +535,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524213602189</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="[fix]4,5を修正">
+      <created>1524214100665</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1524214100665</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36746000" />
+    <option name="totallyTimeSpent" value="36767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1482" height="1496" extended-state="0" />
@@ -960,8 +966,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/js3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="135">
+          <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
           <folding />
         </state>
       </provider>

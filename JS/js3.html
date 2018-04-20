@@ -9,12 +9,7 @@
             document.getElementById('btn1').addEventListener("click", function () {
                 var check = document.getElementById('check');
 
-               if(check.checked == true){
-                   check.checked =false
-             }else{
-               check.checked = true;
-         }
-
+                check.checked = !check.checked
             })
         }
     </script>
