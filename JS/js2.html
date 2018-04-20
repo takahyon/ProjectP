@@ -4,19 +4,21 @@
     <meta charset="utf-8">
     <title>テスト</title>
 
+    <script>
+        window.onload = function(){
+            document.getElementById('btn1').addEventListener("click", function(){
+                var text = document.getElementById('id01').value;
+                alert(text);
+            });
+        }
+    </script>
+
 </head>
 
 <body>
+
 <input type="text" id='id01' value="">
 <input type="button" id="btn1" value="ボタン">
-<script>
-    window.onload = function(){
-        document.getElementById('btn1').addEventListener("click", function(){
-            var text = document.getElementById('id01').value;
-            alert(text);
-        });
-    }
-</script>
-</body>
 
+</body>
 </html>
