@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfea5322-1353-4b3b-a5b0-46623e8b267d" name="Default" comment="[fix]4,5を修正">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Report/PHP/ProjectP-PHP.pdf" afterPath="$PROJECT_DIR$/Report/PHP/ProjectP-PHP.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/js3.html" afterPath="$PROJECT_DIR$/JS/js3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/js4_client.html" afterPath="$PROJECT_DIR$/JS/js4_client.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/js4_server.php" afterPath="$PROJECT_DIR$/JS/js4_server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/php-advance-2.php" afterPath="$PROJECT_DIR$/PHP/php-advance-2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/php1.php" afterPath="$PROJECT_DIR$/PHP/php1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Report/PHP/ProjectP-PHP.tex" afterPath="$PROJECT_DIR$/Report/PHP/ProjectP-PHP.tex" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,38 +25,8 @@
       <file leaf-file-name="php5.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP/php5.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addresses.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/addresses.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="96" lean-forward="false" selection-start-line="0" selection-start-column="96" selection-end-line="0" selection-end-column="96" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addresses.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/json/addresses.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="php-advance-1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/php-advance-1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="435">
+              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -63,17 +36,47 @@
         <entry file="file://$PROJECT_DIR$/JS/js1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js3.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS/js3.html">
+      <file leaf-file-name="js4_client.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS/js4_client.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectP-PHP.tex" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Report/PHP/ProjectP-PHP.tex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1230">
+              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="texcommand" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Report/texcommand">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="php1.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PHP/php1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,28 +95,8 @@
       <file leaf-file-name="php-advance-2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP/php-advance-2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js4_server.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS/js4_server.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="php4.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/php4.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="900">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,6 +109,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Sass File" />
       </list>
     </option>
   </component>
@@ -161,14 +145,24 @@
         <option value="$PROJECT_DIR$/2-js/js2.html" />
         <option value="$PROJECT_DIR$/JS/js2.html" />
         <option value="$PROJECT_DIR$/JS/js4.html" />
-        <option value="$PROJECT_DIR$/JS/js4_client.html" />
         <option value="$PROJECT_DIR$/JS/js4_server.php" />
-        <option value="$PROJECT_DIR$/PHP/php-advance-2.php" />
         <option value="$PROJECT_DIR$/PHP/php4.php" />
         <option value="$PROJECT_DIR$/PHP/addresses.json" />
         <option value="$PROJECT_DIR$/PHP/php5.php" />
         <option value="$PROJECT_DIR$/JS/js1.html" />
         <option value="$PROJECT_DIR$/JS/js3.html" />
+        <option value="$PROJECT_DIR$/PHP/php-advance-2.php" />
+        <option value="$PROJECT_DIR$/JS/js4_client.html" />
+        <option value="$PROJECT_DIR$/style.sass" />
+        <option value="$PROJECT_DIR$/style.scss" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/scss/style.sass" />
+        <option value="$PROJECT_DIR$/.idea/new.sass" />
+        <option value="$PROJECT_DIR$/scss/style.scss" />
+        <option value="$PROJECT_DIR$/Report/PHP/.latexmkrc" />
+        <option value="$PROJECT_DIR$/Report/PHP/ProjectP-PHP.tex" />
+        <option value="$PROJECT_DIR$/Report/texcommand" />
+        <option value="$PROJECT_DIR$/PHP/php1.php" />
       </list>
     </option>
   </component>
@@ -178,84 +172,85 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1482" />
-    <option name="height" value="1496" />
+    <option name="x" value="1012" />
+    <option name="y" value="165" />
+    <option name="width" value="780" />
+    <option name="height" value="901" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="JS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="json" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="Report" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SearchEverywhereHistoryKey" value="refacto&#9;ACTION&#9;Refactorings.QuickListPopupAction" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SCSS" />
+      <recent name="$PROJECT_DIR$/1-PHP" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/JS" />
       <recent name="$PROJECT_DIR$/2-js" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/1-PHP" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -270,8 +265,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.Unnamed">
-    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/../" port="8080" />
+  <component name="RunManager" selected="PHP Script.php1.php">
+    <configuration name="Unnamed" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://128.0.0.1">
+      <method>
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_scss" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="63342" />
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -331,18 +331,20 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration name="js4_client.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htdocs/JS/js4_client.html" />
+    <configuration name="js4_client.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/htdocs/JS/js4_client.html" />
     <configuration name="js4_server.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htdocs/JS/js4_server.php" />
     <configuration name="php-advance-1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/php-advance-1.php" />
+    <configuration name="php1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/php1.php" />
     <configuration name="php4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/php4.php" />
     <configuration name="php5.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/php5.php" />
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="PHP Built-in Web Server.Unnamed" />
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.php1.php" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.js4_client.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.js4_server.php" />
       <item index="3" class="java.lang.String" itemvalue="PHP Script.php-advance-1.php" />
       <item index="4" class="java.lang.String" itemvalue="PHP Script.php5.php" />
       <item index="5" class="java.lang.String" itemvalue="PHP Script.php4.php" />
+      <item index="6" class="java.lang.String" itemvalue="JavaScript Debug.Unnamed" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -350,7 +352,7 @@
         <item index="1" class="java.lang.String" itemvalue="PHP Script.php5.php" />
         <item index="2" class="java.lang.String" itemvalue="PHP Script.php-advance-1.php" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.js4_server.php" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.js4_client.html" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.php1.php" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +374,16 @@
       <workItem from="1524199563533" duration="61000" />
       <workItem from="1524199854483" duration="6087000" />
       <workItem from="1524207907129" duration="2614000" />
-      <workItem from="1524210869578" duration="3119000" />
+      <workItem from="1524210869578" duration="5146000" />
+      <workItem from="1524448289672" duration="139000" />
+      <workItem from="1524448440125" duration="282000" />
+      <workItem from="1524450254625" duration="16000" />
+      <workItem from="1524457088330" duration="297000" />
+      <workItem from="1524457484772" duration="391000" />
+      <workItem from="1524457978638" duration="7033000" />
+      <workItem from="1524465193324" duration="177000" />
+      <workItem from="1524789230386" duration="1997000" />
+      <workItem from="1524794866630" duration="183000" />
     </task>
     <task id="LOCAL-00001" summary="[duplicate]php2.php duplicate to php3.php">
       <created>1523599847723</created>
@@ -542,31 +553,38 @@
       <option name="project" value="LOCAL" />
       <updated>1524214100665</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="[fix]JS 3のボタンスイッチの条件を調整">
+      <created>1524214142996</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1524214142996</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36767000" />
+    <option name="totallyTimeSpent" value="48813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1482" height="1496" extended-state="0" />
+    <frame x="778" y="165" width="1014" height="901" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24966262" sideWeight="0.4963351" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935393" sideWeight="0.5026991" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935393" sideWeight="0.49730095" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935393" sideWeight="0.49730095" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24966262" sideWeight="0.5036649" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -601,48 +619,23 @@
     <MESSAGE value="[add]create js4.html + server.php" />
     <MESSAGE value="[add]応用２が完成" />
     <MESSAGE value="[fix]4,5を修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="[fix]4,5を修正" />
+    <MESSAGE value="[fix]JS 3のボタンスイッチの条件を調整" />
+    <option name="LAST_COMMIT_MESSAGE" value="[fix]JS 3のボタンスイッチの条件を調整" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PHP/php5.php">
+    <entry file="file://$PROJECT_DIR$/PHP/php1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/php-advance-2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/js1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/php2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/js3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css" />
     <entry file="file://$PROJECT_DIR$/JS/js4_client.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -847,13 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/php1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/html5-templeate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -872,15 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/js4_client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3832">
           <caret line="1431" column="69" lean-forward="false" selection-start-line="1431" selection-start-column="69" selection-end-line="1431" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,23 +872,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP/php4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/json/addresses.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,38 +886,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="96" lean-forward="false" selection-start-line="0" selection-start-column="96" selection-end-line="0" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/php5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP/php-advance-1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/php-advance-2.php">
+    <entry file="file://$PROJECT_DIR$/JS/js3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/js1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -964,10 +919,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/js3.html">
+    <entry file="file://$PROJECT_DIR$/PHP/php5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        <state relative-caret-position="435">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/php-advance-2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/style.scss" />
+    <entry file="file://$PROJECT_DIR$/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/JS/js4_client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report/PHP/ProjectP-PHP.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report/texcommand">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/php1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

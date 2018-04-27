@@ -6,7 +6,6 @@
 </head>
 <body>
 
-
 <?php
 
 $header = ["name" => '名前', "address" => '住所', "phone" => '電話', "Email" => 'email'];
@@ -17,34 +16,31 @@ $addresses = array(
 
 ?>
 
-<table>
-    <table border="1">
-        <tr>
-            <th>名前</th>
-            <th>住所</th>
-            <th>電話</th>
-            <th>Email</th>
-        </tr>
+<table border="1">
+    <tr>
+        <th>名前</th>
+        <th>住所</th>
+        <th>電話</th>
+        <th>Email</th>
+    </tr>
 
 
-        <?php
+    <?php
 
-  //  funtion($addresses){
-        foreach ($addresses as $v) {
+    foreach ($addresses as $v) {
 
-            echo "<tr>\n";
-            echo "<td>" . $v['name'] . "</td>\n";
-            echo "<td>" . $v['address'] . "</td>\n";
-            echo "<td>" . $v['phone'] . "</td>\n";
-            echo "<td>" . $v['Email'] . "</td>\n";
-            echo "</tr>\n";
+        echo "<tr>\n";
+        echo "<td>" . $v['name'] . "</td>\n";
+        echo "<td>" . $v['address'] . "</td>\n";
+        echo "<td>" . $v['phone'] . "</td>\n";
+        echo "<td>" . $v['Email'] . "</td>\n";
+        echo "</tr>\n";
 
-         //   }
-        }
+    }
 
-        ?>
+    ?>
 
-    </table>
+</table>
 
 </body>
 </html>

@@ -58,6 +58,7 @@ function failed()
 <div id="top">
 
 </div>
+
 <h1>ファイルアップローダー</h1>
 
 <form action="php-advance-2.php" method="post" enctype="multipart/form-data">
