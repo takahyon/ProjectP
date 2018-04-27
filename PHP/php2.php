@@ -8,7 +8,6 @@
 
 <?php
 
-$header = ["name" => '名前', "address" => '住所', "phone" => '電話', "Email" => 'email'];
 $addresses = array(
     array("name" => '東京太郎', "address" => '東京都', "phone" => '012-345-6789', "Email" => 'taro@example.com'),
     array("name" => '工科花子', "address" => '北海道', "phone" => '987-654-3210', "Email" => 'hana@example.com'),
@@ -39,7 +38,6 @@ $addresses = array(
     }
 
     ?>
-
 </table>
 
 </body>

@@ -1,6 +1,10 @@
 \documentclass[a4j,10pt]{jsarticle}
 \usepackage{mylatex}
 \usepackage{listings,jlisting}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{subcaption}
+\usepackage{here}
+\graphicspath{ {figures/} }
 
 \title{プロジェクト実習P PHP演習}
 \author{C0116023 飯島貴政}
@@ -8,7 +12,14 @@
 
 \begin{document}
 \maketitle
+
+
+\section{目的}
+
+今回の課題の目的を述べる．
+
 \lstset{
+    language = PHP,
     %枠外に行った時の自動改行
     breaklines = true,
     %自動改行後のインデント量(デフォルトでは20[pt])
@@ -33,50 +44,108 @@
     %キャプションの場所(“tb”ならば上下両方に記載)
     captionpos = t
 }
-
-\section{目的}
-
-今回の課題の目的を述べる．
-
-
 \section{課題1}
 
 \subsection{問題}
 
-文字列「Hello World」をブラウザ上に表示するプログラムphp1.phpを作成せよ。
-以降の課題はHTMLにPHPプログラムを埋め込むことによって構成すること。HTMLは5に準拠すること。
+文字列「Hello World」をブラウザ上に表示するプログラムphp1.phpを作成せよ.
+以降の課題はHTMLにPHPプログラムを埋め込むことによって構成すること.HTMLは5に準拠すること.
 
 
 \subsection{ソースコード}
 
 \lstinputlisting[caption=PHP1.php,label=pg:k1-1s]{src/php1.php}
 
-\pgref{pg:k1-1s}のソース15行目で {\tt Hello, }という文字列を出力している．
-次の16行目では{\tt Bye-bye 応用プログラミング!}という文字列を出力してい
-る．
-
-\subsection{ファイル構成}
-
-
-Webアプリケーションは複数ファイルをいくつかのディレクトリに分けて保存す
-ることが多い．その構成を図表で書いておくと状況が整理しやすいのでオススメ．
-
+\pgref{pg:k1-1s}のソース8行目でHTML5に準拠させるためhtml lang及び,5行目で文字エンコードを設定している.
+ソース8行目でPHPのechoにより {\tt Hello World }という文字列を出力している．
 
 \subsection{実行結果}
 
-
-\subsection{考察}
-
-\pgref{pg:k1-1r} より，本課題の最低限の仕様を満たすことができたと言える．
-しかし，見栄えや再利用性を考えた場合，あんなことやこんなことが必要になる
-と考えられる．
-
-…みたいに，実行結果を踏まえて現状を改善するにはどうすればいいか等を書く
-と格好がつく．
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics{1.png}
+  }
+  \caption{リスト１の実行結果}
+  \label{fig:boat1}
+\end{figure}
 
 \section{課題2}
 
-複数の課題が出た場合はセクションを分けて書くこと．
+
+\subsection{問題}
+
+\begin{verbatim}
+配列にある住所録を表示する関数print_table($addresses)を含むプログラムphp2.php作成せよ.
+このとき¥addressesは住所録を保持する配列であるとする.これは,1名分のデータを保持する連想配列を,要素として人数分含む二重配列構造を持つ.
+1名分のデータを保持する連想配列はインデックスとしてname/address/phone/emailを持つものとする.
+\end{verbatim}
+\subsection{ソースコード}
+
+\lstinputlisting[caption=PHP2.php,label=pg:k2-1s]{src/php2.php}
+
+\pgref{pg:k2-1s}のソース11行目から14行目でサンプルの2人分のデータを\$addressesという変数に連想配列で格納した.
+18行目でtableタグを宣言し,表を描画する準備をする.24行目でデータの見出しを表示している.29行目でforeachを繰り返しデータの内容をキーごとに出力している.
+
+\subsection{実行結果}
+
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=10cm]{2.png}
+  }
+  \caption{リスト2の実行結果}
+  \label{fig:boat1}
+\end{figure}
+
+\section{課題3}
+
+
+\subsection{問題}
+
+\begin{verbatim}
+POSTメソッドを使用して,住所録に項目を追加するプログラムphp3.phpを作成せよ.
+住所録のデータは保存されず,読み込みのたびに初期状態に戻ってよい.
+\end{verbatim}
+\subsection{ソースコード}
+
+\lstinputlisting[caption=PHP2.php,label=pg:k2-1s]{src/php3.php}
+
+\pgref{pg:k2-1s}のソース11行目から14行目でサンプルの2人分のデータを\$addressesという変数に連想配列で格納した.
+18行目でtableタグを宣言し,表を描画する準備をする.24行目でデータの見出しを表示している.29行目でforeachを繰り返しデータの内容をキーごとに出力している.
+
+\subsection{実行結果}
+
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=10cm]{3.png}
+  }
+  \caption{リスト3の実行結果[1]}
+\label{fig:fig3}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=10cm]{4.png}
+  }
+  \caption{リスト3の実行結果[2]}
+\label{fig:fig4}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=10cm]{5.png}
+  }
+  \caption{リスト3の実行結果[3]}
+\label{fig:fig5}
+\end{figure}
+
+\figref{fig:fig3}はphp3.phpページを開いた時の初期画面である。
+\figref{fig:fig4}は
+
 
 
 \end{document}
