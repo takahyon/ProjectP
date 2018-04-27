@@ -16,7 +16,7 @@
 
 \section{目的}
 
-今回の課題の目的を述べる．
+今回の課題の目的を述べる。
 
 \lstset{
     language = PHP,
@@ -29,7 +29,7 @@
     %関数名等の色の設定
     classoffset = 0,
     %枠 “t”は上に線を記載, “T”は上に二重線を記載
-    %他オプション：leftline，topline，bottomline，lines，single，shadowbox
+    %他オプション：leftline、topline、bottomline、lines、single、shadowbox
     frame = TBrl,
     %frameまでの間隔(行番号とプログラムの間)
     framesep = 5pt,
@@ -44,6 +44,8 @@
     %キャプションの場所(“tb”ならば上下両方に記載)
     captionpos = t
 }
+%=================================================================================
+
 \section{課題1}
 
 \subsection{問題}
@@ -57,7 +59,7 @@
 \lstinputlisting[caption=PHP1.php,label=pg:k1-1s]{src/php1.php}
 
 \pgref{pg:k1-1s}のソース8行目でHTML5に準拠させるためhtml lang及び,5行目で文字エンコードを設定している.
-ソース8行目でPHPのechoにより {\tt Hello World }という文字列を出力している．
+ソース8行目でPHPのechoにより {\tt Hello World }という文字列を出力している。
 
 \subsection{実行結果}
 
@@ -69,10 +71,9 @@
   \caption{リスト１の実行結果}
   \label{fig:boat1}
 \end{figure}
+%=================================================================================
 
 \section{課題2}
-
-
 \subsection{問題}
 
 \begin{verbatim}
@@ -97,9 +98,9 @@
   \caption{リスト2の実行結果}
   \label{fig:boat1}
 \end{figure}
+%=================================================================================
 
 \section{課題3}
-
 
 \subsection{問題}
 
@@ -109,11 +110,15 @@ POSTメソッドを使用して,住所録に項目を追加するプログラム
 \end{verbatim}
 \subsection{ソースコード}
 
-\lstinputlisting[caption=PHP2.php,label=pg:k2-1s]{src/php3.php}
+\lstinputlisting[caption=PHP3.php,label=pg:k2-1s]{src/php3.php}
+\begin{verbatim}
+\pgref{pg:k2-1s}のソース13行目から17行目でサンプルの2人分のデータを$addressesという変数に連想配列で格納した.
+19行目から送信ボタンが押された際の動作を定義している。$getPostという変数にフォームから送られたデータを$_POSTで取得し、連想配列に格納している。
+23行目のarray_pushの第１引数をデータが追加される連想配列$addresses、第２引数を追加するデータである$getPostにすることで、住所録に新しいデータを追加することができる。
+57行目から実際にwebページに表示するフォームを設定している。メソッドはPOSTである。
+各フォームのnameタグはPHP側の連想配列$addressesに対応するようにした。
 
-\pgref{pg:k2-1s}のソース11行目から14行目でサンプルの2人分のデータを\$addressesという変数に連想配列で格納した.
-18行目でtableタグを宣言し,表を描画する準備をする.24行目でデータの見出しを表示している.29行目でforeachを繰り返しデータの内容をキーごとに出力している.
-
+\end{verbatim}
 \subsection{実行結果}
 
 \begin{figure}[H]
@@ -144,7 +149,65 @@ POSTメソッドを使用して,住所録に項目を追加するプログラム
 \end{figure}
 
 \figref{fig:fig3}はphp3.phpページを開いた時の初期画面である。
-\figref{fig:fig4}は
+\figref{fig:fig4}は入力フォームに追加したいデータを入力している。
+\figref{fig:fig5}は送信ボタンを押した後、表に新規データが追加されていることが確認できた。
+%=================================================================================
+
+\section{課題4}
+
+\subsection{問題}
+
+\begin{verbatim}
+php3.phpにおいて、データが追加された際に住所録の内容をJSON形式を用いて表示するよ
+うにせよ。
+(JSON形式による配列の表示は、デバッグの手段としても有効である)
+
+\end{verbatim}
+\subsection{ソースコード}
+
+\lstinputlisting[caption=PHP4.php,label=pg:k2-1s]{src/php3.php}
+\begin{verbatim}
+\pgref{pg:k2-1s}のソース13行目から17行目でサンプルの2人分のデータを$addressesという変数に連想配列で格納した.
+19行目から送信ボタンが押された際の動作を定義している。$getPostという変数にフォームから送られたデータを$_POSTで取得し、連想配列に格納している。
+23行目のarray_pushの第１引数をデータが追加される連想配列$addresses、第２引数を追加するデータである$getPostにすることで、住所録に新しいデータを追加することができる。
+57行目から実際にwebページに表示するフォームを設定している。メソッドはPOSTである。
+各フォームのnameタグはPHP側の連想配列$addressesに対応するようにした。
+
+\end{verbatim}
+\subsection{実行結果}
+
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=10cm]{3.png}
+  }
+  \caption{リスト3の実行結果[1]}
+\label{fig:fig3}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=10cm]{4.png}
+  }
+  \caption{リスト3の実行結果[2]}
+\label{fig:fig4}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=10cm]{5.png}
+  }
+  \caption{リスト3の実行結果[3]}
+\label{fig:fig5}
+\end{figure}
+
+\figref{fig:fig3}はphp3.phpページを開いた時の初期画面である。
+\figref{fig:fig4}は入力フォームに追加したいデータを入力している。
+\figref{fig:fig5}は送信ボタンを押した後、表に新規データが追加されていることが確認できた。
+%=================================================================================
+
 
 
 

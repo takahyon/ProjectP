@@ -17,21 +17,17 @@
         echo " ";
 
         foreach ($addresses as $v) {
-
-
             echo "<tr>\n";
             echo "<td>" . $v['name'] . "</td>\n";
             echo "<td>" . $v['address'] . "</td>\n";
             echo "<td>" . $v['phone'] . "</td>\n";
             echo "<td>" . $v['Email'] . "</td>\n";
             echo "</tr>\n";
-
         }
         echo "</table>";
     }
 
     ?>
-
 
 </head>
 <body>
@@ -46,15 +42,15 @@
         array("name" => '工科花子', "address" => '北海道', "phone" => '987-654-3210', "Email" => 'hana@example.com'),
     );
 
-    if (isset($_POST[submit])) {
+    if (isset($_POST["submit"])) {
 
         $getPost =
             array("name" => $_POST['name'], "address" => $_POST['address'], "phone" => $_POST['phone'], "Email" => $_POST['email']);
         array_push($addresses, $getPost);
     }
 
-    if (isset($_POST[submit])) {
-        print($_POST[name]);
+    if (isset($_POST["submit"])) {
+        print($_POST["name"]);
 
         $json = json_encode($addresses, JSON_UNESCAPED_UNICODE);
         file_put_contents("addresses.json", $json);
@@ -62,7 +58,6 @@
     }
 
     print_table($addresses);
-
 
     ?>
 
@@ -74,10 +69,6 @@
         Email<input type='text' name="email">
         <input type="submit" name="submit" value="送信">
 
-
     </form>
 </body>
 </html>
-
-
-
