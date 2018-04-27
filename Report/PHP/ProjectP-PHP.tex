@@ -16,7 +16,10 @@
 
 \section{目的}
 
-今回の課題の目的を述べる。
+現代のWebアプリケーションプログラムは、Webブラウザ上で動作するクライアントプログラ
+ム、サーバ側で動作するサーバプログラム、および、データベースアクセスのためのクエリから
+構成されることが多い。ここでは、サーバプログラムを記述するためのスクリプティング言語で
+ある、PHPについて習得する。
 
 \lstset{
     language = PHP,
@@ -29,7 +32,7 @@
     %関数名等の色の設定
     classoffset = 0,
     %枠 “t”は上に線を記載, “T”は上に二重線を記載
-    %他オプション：leftline、topline、bottomline、lines、single、shadowbox
+    %他オプション：leftline,topline,bottomline,lines,single,shadowbox
     frame = TBrl,
     %frameまでの間隔(行番号とプログラムの間)
     framesep = 5pt,
@@ -59,7 +62,7 @@
 \lstinputlisting[caption=PHP1.php,label=pg:k1-1s]{src/php1.php}
 
 \pgref{pg:k1-1s}のソース8行目でHTML5に準拠させるためhtml lang及び,5行目で文字エンコードを設定している.
-ソース8行目でPHPのechoにより {\tt Hello World }という文字列を出力している。
+ソース8行目でPHPのechoにより {\tt Hello World }という文字列を出力している.
 
 \subsection{実行結果}
 
@@ -112,11 +115,11 @@ POSTメソッドを使用して,住所録に項目を追加するプログラム
 
 \lstinputlisting[caption=PHP3.php,label=pg:k2-1s]{src/php3.php}
 \begin{verbatim}
-\pgref{pg:k2-1s}のソース13行目から17行目でサンプルの2人分のデータを$addressesという変数に連想配列で格納した.
-19行目から送信ボタンが押された際の動作を定義している。$getPostという変数にフォームから送られたデータを$_POSTで取得し、連想配列に格納している。
-23行目のarray_pushの第１引数をデータが追加される連想配列$addresses、第２引数を追加するデータである$getPostにすることで、住所録に新しいデータを追加することができる。
-57行目から実際にwebページに表示するフォームを設定している。メソッドはPOSTである。
-各フォームのnameタグはPHP側の連想配列$addressesに対応するようにした。
+リスト3のソース13行目から17行目でサンプルの2人分のデータを$addressesという変数に連想配列で格納した.
+19行目から送信ボタンが押された際の動作を定義している. $getPostという変数にフォームから送られたデータを$_POSTで取得し,連想配列に格納している.
+23行目のarray_pushの第１引数をデータが追加される連想配列$addresses,第２引数を追加するデータである$getPostにすることで,住所録に新しいデータを追加することができる.
+57行目から実際にwebページに表示するフォームを設定している. メソッドはPOSTである.
+各フォームのnameタグはPHP側の連想配列$addressesに対応するようにした.
 
 \end{verbatim}
 \subsection{実行結果}
@@ -148,9 +151,9 @@ POSTメソッドを使用して,住所録に項目を追加するプログラム
 \label{fig:fig5}
 \end{figure}
 
-\figref{fig:fig3}はphp3.phpページを開いた時の初期画面である。
-\figref{fig:fig4}は入力フォームに追加したいデータを入力している。
-\figref{fig:fig5}は送信ボタンを押した後、表に新規データが追加されていることが確認できた。
+\figref{fig:fig3}はphp3.phpページを開いた時の初期画面である.
+\figref{fig:fig4}は入力フォームに追加したいデータを入力している.
+\figref{fig:fig5}は送信ボタンを押した後,表に新規データが追加されていることが確認できた.
 %=================================================================================
 
 \section{課題4}
@@ -158,20 +161,19 @@ POSTメソッドを使用して,住所録に項目を追加するプログラム
 \subsection{問題}
 
 \begin{verbatim}
-php3.phpにおいて、データが追加された際に住所録の内容をJSON形式を用いて表示するよ
-うにせよ。
-(JSON形式による配列の表示は、デバッグの手段としても有効である)
+php3.phpにおいて,データが追加された際に住所録の内容をJSON形式を用いて表示するよ
+うにせよ.
+(JSON形式による配列の表示は,デバッグの手段としても有効である)
 
 \end{verbatim}
 \subsection{ソースコード}
 
-\lstinputlisting[caption=PHP4.php,label=pg:k2-1s]{src/php3.php}
+\lstinputlisting[caption=PHP4.php,label=pg:k4-1s]{src/php4.php}
 \begin{verbatim}
-\pgref{pg:k2-1s}のソース13行目から17行目でサンプルの2人分のデータを$addressesという変数に連想配列で格納した.
-19行目から送信ボタンが押された際の動作を定義している。$getPostという変数にフォームから送られたデータを$_POSTで取得し、連想配列に格納している。
-23行目のarray_pushの第１引数をデータが追加される連想配列$addresses、第２引数を追加するデータである$getPostにすることで、住所録に新しいデータを追加することができる。
-57行目から実際にwebページに表示するフォームを設定している。メソッドはPOSTである。
-各フォームのnameタグはPHP側の連想配列$addressesに対応するようにした。
+リスト4のソース1行目から53行目までは前節のphp3.phpと同コードである. PHP関数を<head>部分に移動した.
+55行目では変数 $json に $addresses の内容を書き込むjson_encode関数を記述した. 第１引数は書き込む対象の連想配列,
+第２引数はエンコードだが,今回第２引数をUTF-8に指定して,プログラムを実行したところjsonファイルが日本語ではなくなってしまったのでエスケープ文字に変換しないJSON_UNESCAPED_UNICODE とした.
+56行目file_put_contents関数で $jsonの内容を addresses.json に書き出すようにした. またjsonの内容を表示するためprint($json)としている。
 
 \end{verbatim}
 \subsection{実行結果}
@@ -179,10 +181,10 @@ php3.phpにおいて、データが追加された際に住所録の内容をJSO
 \begin{figure}[H]
   \centering
   \fbox{
-  \includegraphics[width=10cm]{3.png}
+  \includegraphics[width=10cm]{5.png}
   }
-  \caption{リスト3の実行結果[1]}
-\label{fig:fig3}
+  \caption{リスト4の実行結果[1]}
+\label{fig:fig5}
 \end{figure}
 
 \begin{figure}[H]
@@ -190,25 +192,175 @@ php3.phpにおいて、データが追加された際に住所録の内容をJSO
   \fbox{
   \includegraphics[width=10cm]{4.png}
   }
-  \caption{リスト3の実行結果[2]}
+  \caption{リスト4の実行結果[2]}
 \label{fig:fig4}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \fbox{
-  \includegraphics[width=10cm]{5.png}
+  \includegraphics[width=10cm]{6.png}
   }
-  \caption{リスト3の実行結果[3]}
-\label{fig:fig5}
+  \caption{リスト4の実行結果[3]}
+\label{fig:fig6}
 \end{figure}
 
-\figref{fig:fig3}はphp3.phpページを開いた時の初期画面である。
-\figref{fig:fig4}は入力フォームに追加したいデータを入力している。
-\figref{fig:fig5}は送信ボタンを押した後、表に新規データが追加されていることが確認できた。
+\figref{fig:fig5}はphp4.phpページを開いた時の初期画面である.
+\figref{fig:fig4}は入力フォームに追加したいデータを入力している.
+\figref{fig:fig6}は送信ボタンを押した後,表に新規データが追加されていること及びjsonが表示されていることが確認できた.
+%=================================================================================
+\section{課題5}
+
+\subsection{問題}
+
+\begin{verbatim}
+  php3.phpで作成した住所録の内容を、addresses.jsonというファイルに書き込み、永続的に
+  保存できるようにせよ。
+  新しいデータを「追加」ボタンで追加した内容はファイルに保存され、後に画面を参照した
+  場合には更新された画面が見えるようにせよ。
+
+\end{verbatim}
+\subsection{ソースコード}
+
+\lstinputlisting[caption=PHP5.php,label=pg:k5-1s]{src/php5.php}
+\begin{verbatim}
+リスト5のソース7行目から12行目までにjsonを書き込むユーザー定義関数makeJsonを作成した。これはjsonを書き込むことは多々あると考えられるため、関数として呼び出しやすくするべきだと考えたためである。
+21行目では変数 $jsonUrl に 読み込むファイルであるaddresses.jsonを格納している。22行目で $jsonUrl にjsonファイルがあるかどうかを判断する。
+もしある場合は23行目でjsonを読み込んだことをユーザーに知らせるためにWEBページにfile readという表示が出るようにした。24行目では file_get_contentsメソッドでjsonの内容を開き$jsonという変数に格納する。
+26行目では $obj　という変数に json_encodeメソッドで連想配列にデコードされたaddresses.jsonを代入する。
+もしjsonファイルがない場合は30行目の"データがありません" という文字がWEBページに表示される。
+32行目から36行目までは前節と共通のコードである。37行目のmakeJson($obj)は$objをjsonのファイルに書き出している。
+38行目以下のコードに関してはフォームの送信先がphp5.phpになっていること以外はリスト4[php4.php]と共通である。
+
+\end{verbatim}
+\subsection{実行結果}
+
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=10cm]{7.png}
+  }
+  \caption{リスト5の実行結果[1]}
+\label{fig:fig7}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=10cm]{8.png}
+  }
+  \caption{リスト5の実行結果[2]}
+\label{fig:fig8}
+\end{figure}
+
+
+\figref{fig:fig7}はphp5.phpページを開いた時の初期画面である.jsonが読み込まれていることがわかる。
+\figref{fig:fig8}で永続的にデータが保存されていることが確認できる。
+
+%=================================================================================
+\newpage
+
+\section{応用課題1}
+
+\subsection{問題}
+
+\begin{verbatim}
+  セッションを用いて、ユーザーがアクセスしてきた回数をページに表示するプログラム
+  php-advance-1.phpを作成せよ。
+  ただし、初めてのアクセスの際には回数の代わりに「初めての訪問です」というようなメッセージを表示するようにせよ。
+
+\end{verbatim}
+\subsection{ソースコード}
+
+\lstinputlisting[caption=php-advance-1.php,label=pg:k6-1s]{src/php-advance-1.php}
+\begin{verbatim}
+リスト6のソース2行目でセッションを開始する session_start() をコールした。
+17行目で今までに訪問したことが無い場合、すなわち変数$_SESSION["visited"]が無い場合、初めての訪問です! と表示するようになっている。また、表示したのち$_SESSION["visited"]に1を代入する。
+対して20行目からは、訪問したことがある場合、すなわち$_SESSION["visited"]が1以上の場合は変数 $visited に　$_SESSION["visited"]の値を代入する。
+22行目で訪問回数を増加させている。$visitedには訪問回数が格納されていることになるので24行目では $visited.　'回目'とすることでセッションの回数を表示することができる。
+\end{verbatim}
+\subsection{実行結果}
+
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=6cm]{ad1.png}
+  }
+  \caption{リスト6の実行結果[1]}
+\label{fig:ad1}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=6cm]{ad2.png}
+  }
+  \caption{リスト6の実行結果[2]}
+\label{fig:ad2}
+\end{figure}
+
+
+\figref{fig:ad1}はphp-advance-1.phpページを開いた時の初期画面である.初めての訪問と出る。
+\figref{fig:ad2}では \$visited　にセッション回数が保存されているのでn(セッション回数)回目の訪問と出る。50回までは表示されることを検証した。
+
 %=================================================================================
 
+\section{応用課題2}
 
+\subsection{問題}
 
+\begin{verbatim}
+  ファイルを選択できるフォームを作成し、選択されたファイルを保存するプログラム
+php-advance-2.phpを作成せよ。
+ただし、保存先はプログラムが保存されているディレクトリと同一のディレクトリで構わ
+ず、ファイルが選択されずにフォームが送信された場合にはエラー表示をするようにせよ。
+\end{verbatim}
+\subsection{ソースコード}
+
+\lstinputlisting[caption=php-advance-2.php,label=pg:k6-1s]{src/php-advance-2.php}
+\begin{verbatim}
+  12行目でスーパーグローバル変数の$_FILE['fname']でアップロードしたファイルの名前を取得する。
+  14行目で一時的なファイルの名前を定義する。15行目でアップロードが完了して実際に保存されるファイルの名前を定義する。
+  20行目でアップロードファイルが送信された際の動作を定義している。
+  一時的な場所からファイルがドキュメントルートに保存された場合、”Successful:ファイルのアップロードに成功しました。”と表示される。
+  もし何も送信されなかった場合は”Error: ファイルが指定されていません”と表示される。
+
+\end{verbatim}
+\subsection{実行結果}
+
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=4cm]{ad3.png}
+  }
+  \caption{リスト7の実行結果[1]}
+\label{fig:ad3}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=4cm]{ad4.png}
+  }
+  \caption{リスト7の実行結果[2]}
+\label{fig:ad4}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \fbox{
+  \includegraphics[width=4cm]{ad5.png}
+  }
+  \caption{リスト7の実行結果[3]}
+\label{fig:ad5}
+\end{figure}
+
+\figref{fig:ad3}はphp-advance-1.phpページを開いた時の初期画面である.。
+\figref{fig:ad4}はファイルの送信に成功した時の表示である。
+\figref{fig:ad5}はファイルの送信に失敗した時の表示である。
+
+\begin{thebibliography}{4}
+  \bibitem{PHP} PHPマニュアル http://php.net/manual/ja/
+  \bibitem{HTML} HTML5リファレンス http://www.htmq.com/html5/
+\end{thebibliography}
 
 \end{document}
