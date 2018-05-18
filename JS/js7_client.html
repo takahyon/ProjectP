@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>テスト</title>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            document.getElementById("btn1").addEventListener("click", function () {
+
+                var req = new XMLHttpRequest();
+                req.onreadystatechange = function () {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById('result').textContent=req.responseText;
+
+                    }
+                }
+                var text = document.getElementById("name");
+                text = text.value;
+                var pass = 'js5_server.php?name='+text;
+                req.open('GET', 'js5_server.php?name='+text, true);
+                req.send(null);
+
+            });
+        });
+
+    </script>
+
+</head>
+
+<body>
+<input type="text" id="name" value="adaw">
+<div id =result>
+
+</div>
+<button type="submit" id="btn1" value="送信">ボタン</button>
+
+</body>
+</html>
