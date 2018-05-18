@@ -13,7 +13,6 @@
                 req.onreadystatechange = function () {
                     if (this.readyState == 4 && this.status == 200) {
                         document.getElementById('result').textContent=req.responseText;
-
                     }
                 }
                 var text = document.getElementById("name");
