@@ -15,7 +15,11 @@
                         alert(req.responseText)
                     }
                 }
-                req.open('GET', 'js4_server.php', true);
+                var text = document.getElementById("name");
+                text = text.value;
+                var pass = 'js5_server.php?name='+text;
+                console.log(text);
+                req.open('GET', 'js5_server.php?name='+text, true);
                 req.send(null);
 
             });
@@ -27,7 +31,8 @@
 
 <body>
 
-<button type="submit" id="btn1" value="送信"></button>
+<input type="text" id="name" value="adaw">
+<button type="submit" id="btn1" value="送信">ボタン</button>
 
 </body>
 </html>

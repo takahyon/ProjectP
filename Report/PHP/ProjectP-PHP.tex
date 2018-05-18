@@ -63,7 +63,9 @@
 ソース8行目でPHPのechoにより {\tt Hello World }という文字列を出力している.
 
 \lstinputlisting[caption=PHP1.php,label=pg:k1-1s]{src/php1.php}
+\newpage
 \subsection{実行結果}
+\figref{fig:1}はphp1.phpページを開いた時の初期画面である.正常にHello Worldが出力できている.
 
 \begin{figure}[H]
   \centering
@@ -73,19 +75,15 @@
   \caption{ソースコード１の実行結果}
   \label{fig:1}
 \end{figure}
-\figref{fig:1}はphp1.phpページを開いた時の初期画面である.正常にHello Worldが出力できている.
 
 %=================================================================================
 
 \section{課題2}
 \subsection{問題}
 
-
   配列にある住所録を表示する関数print\_table(\$addresses)を含むプログラムphp2.php作成せよ.
   このとき\$addressesは住所録を保持する配列であるとする.これは,1名分のデータを保持する連想配列を,要素として人数分含む二重配列構造を持つ.
   1名分のデータを保持する連想配列はインデックスとしてname/address/phone/emailを持つものとする.
-
-
 
 \subsection{ソースコード}
 
@@ -95,6 +93,8 @@
 
 \subsection{実行結果}
 
+\figref{fig:2}はphp2.phpページを開いた時の初期画面である.正常に住所録表が出力できている。
+
 \begin{figure}[H]
   \centering
   \fbox{
@@ -103,7 +103,6 @@
   \caption{ソースコード2の実行結果}
   \label{fig:2}
 \end{figure}
-\figref{fig:2}はphp2.phpページを開いた時の初期画面である.正常に住所録表が出力できている。
 
 %=================================================================================
 
@@ -128,12 +127,15 @@ POSTメソッドを使用して,住所録に項目を追加するプログラム
 
 \subsection{実行結果}
 
+\figref{fig:fig3}はphp3.phpページを開いた時の初期画面である.
+\figref{fig:fig4}は入力フォームに追加したいデータを入力している.
+\figref{fig:fig5}は送信ボタンを押した後,表に新規データが追加されていることが確認できた.
 \begin{figure}[H]
   \centering
   \fbox{
   \includegraphics[width=10cm]{3.png}
   }
-  \caption{ソースコード3の実行結果[1]}
+  \caption{php3.phpの初期画面}
 \label{fig:fig3}
 \end{figure}
 
@@ -142,7 +144,7 @@ POSTメソッドを使用して,住所録に項目を追加するプログラム
   \fbox{
   \includegraphics[width=10cm]{4.png}
   }
-  \caption{ソースコード3の実行結果[2]}
+  \caption{php3.phpのフォームに入力している画面}
 \label{fig:fig4}
 \end{figure}
 
@@ -151,13 +153,10 @@ POSTメソッドを使用して,住所録に項目を追加するプログラム
   \fbox{
   \includegraphics[width=10cm]{5.png}
   }
-  \caption{ソースコード3の実行結果[3]}
+  \caption{送信ボタンを押した後の画面}
 \label{fig:fig5}
 \end{figure}
 
-\figref{fig:fig3}はphp3.phpページを開いた時の初期画面である.
-\figref{fig:fig4}は入力フォームに追加したいデータを入力している.
-\figref{fig:fig5}は送信ボタンを押した後,表に新規データが追加されていることが確認できた.
 %=================================================================================
 
 \section{課題4}
@@ -179,12 +178,16 @@ php3.phpにおいて,データが追加された際に住所録の内容をJSON�
 \lstinputlisting[caption=PHP4.php,label=pg:k4-1s]{src/php4.php}
 \subsection{実行結果}
 
+\figref{fig:fig6}はphp4.phpページを開いた時の初期画面である.
+\figref{fig:fig7}は入力フォームに追加したいデータを入力している.
+\figref{fig:fig8}は送信ボタンを押した後,表に新規データが追加されていること及びjsonが表示されていることが確認できた.
+
 \begin{figure}[H]
   \centering
   \fbox{
   \includegraphics[width=10cm]{5.png}
   }
-  \caption{ソースコード4の実行結果[1]}
+  \caption{php4.phpの初期画面}
 \label{fig:fig6}
 \end{figure}
 
@@ -193,7 +196,7 @@ php3.phpにおいて,データが追加された際に住所録の内容をJSON�
   \fbox{
   \includegraphics[width=10cm]{4.png}
   }
-  \caption{ソースコード4の実行結果[2]}
+  \caption{php4.phpのフォームに入力している画面}
 \label{fig:fig7}
 \end{figure}
 
@@ -202,13 +205,9 @@ php3.phpにおいて,データが追加された際に住所録の内容をJSON�
   \fbox{
   \includegraphics[width=10cm]{6.png}
   }
-  \caption{ソースコード4の実行結果[3]}
+  \caption{php4.phpで送信ボタンを押した後の画面}
 \label{fig:fig8}
 \end{figure}
-
-\figref{fig:fig6}はphp4.phpページを開いた時の初期画面である.
-\figref{fig:fig7}は入力フォームに追加したいデータを入力している.
-\figref{fig:fig8}は送信ボタンを押した後,表に新規データが追加されていること及びjsonが表示されていることが確認できた.
 %=================================================================================
 \section{課題5}
 
@@ -233,12 +232,15 @@ php3.phpにおいて,データが追加された際に住所録の内容をJSON�
 
 \subsection{実行結果}
 
+\figref{fig:fig9}はphp5.phpページを開いた時の初期画面である.jsonが読み込まれていることがわかる.
+\figref{fig:fig10}で永続的にデータが保存されていることが確認できる.
+
 \begin{figure}[H]
   \centering
   \fbox{
   \includegraphics[width=10cm]{7.png}
   }
-  \caption{ソースコード5の実行結果[1]}
+  \caption{php5.phpの初期画面}
 \label{fig:fig9}
 \end{figure}
 
@@ -247,13 +249,11 @@ php3.phpにおいて,データが追加された際に住所録の内容をJSON�
   \fbox{
   \includegraphics[width=10cm]{8.png}
   }
-  \caption{ソースコード5の実行結果[2]}
+  \caption{データを追加した後の画面}
 \label{fig:fig10}
 \end{figure}
 
 
-\figref{fig:fig9}はphp5.phpページを開いた時の初期画面である.jsonが読み込まれていることがわかる.
-\figref{fig:fig10}で永続的にデータが保存されていることが確認できる.
 
 %=================================================================================
 \newpage
@@ -274,15 +274,19 @@ php3.phpにおいて,データが追加された際に住所録の内容をJSON�
 22行目で訪問回数を増加させている.\$visitedには訪問回数が格納されていることになるので24行目では \$visited.　'回目'とすることでセッションの回数を表示することができる.
 
 \lstinputlisting[caption=php-advance-1.php,label=pg:k6-1s]{src/php-advance-1.php}
+\newpage
 
 \subsection{実行結果}
 
+
+\figref{fig:ad1}はphp-advance-1.phpページを開いた時の初期画面である.初めての訪問と出る.
+\figref{fig:ad2}では \$visited　にセッション回数が保存されているのでn(セッション回数)回目の訪問と出る.50回までは表示されることを検証した.
 \begin{figure}[H]
   \centering
   \fbox{
   \includegraphics[width=6cm]{ad1.png}
   }
-  \caption{ソースコード6の実行結果[1]}
+  \caption{初回の訪問時に表示される画面}
 \label{fig:ad1}
 \end{figure}
 
@@ -291,13 +295,10 @@ php3.phpにおいて,データが追加された際に住所録の内容をJSON�
   \fbox{
   \includegraphics[width=6cm]{ad2.png}
   }
-  \caption{ソースコード6の実行結果[2]}
+  \caption{2回目の訪問時に表示される画面}
 \label{fig:ad2}
 \end{figure}
 
-
-\figref{fig:ad1}はphp-advance-1.phpページを開いた時の初期画面である.初めての訪問と出る.
-\figref{fig:ad2}では \$visited　にセッション回数が保存されているのでn(セッション回数)回目の訪問と出る.50回までは表示されることを検証した.
 
 %=================================================================================
 
@@ -323,12 +324,16 @@ php-advance-2.phpを作成せよ.
 
 \subsection{実行結果}
 
+\figref{fig:ad3}はphp-advance-2.phpページを開いた時の初期画面である..
+\figref{fig:ad4}はファイルの送信に成功した時の表示である.
+\figref{fig:ad5}はファイルの送信に失敗した時の表示である.
+
 \begin{figure}[H]
   \centering
   \fbox{
   \includegraphics[width=4cm]{ad3.png}
   }
-  \caption{ソースコード7の実行結果[1]}
+  \caption{php-advance-2.phpの初期画面}
 \label{fig:ad3}
 \end{figure}
 
@@ -337,7 +342,7 @@ php-advance-2.phpを作成せよ.
   \fbox{
   \includegraphics[width=4cm]{ad4.png}
   }
-  \caption{ソースコード7の実行結果[2]}
+  \caption{ファイルを送信した時の画面}
 \label{fig:ad4}
 \end{figure}
 \begin{figure}[H]
@@ -345,13 +350,13 @@ php-advance-2.phpを作成せよ.
   \fbox{
   \includegraphics[width=4cm]{ad5.png}
   }
-  \caption{ソースコード7の実行結果[3]}
+  \caption{何もファイルを選択せず送信を押した場合の画面}
 \label{fig:ad5}
 \end{figure}
+sjぢせfj祖f背jフェイオsふぇそfjsfjせfあwdかwんdkw’
 
-\figref{fig:ad3}はphp-advance-1.phpページを開いた時の初期画面である..
-\figref{fig:ad4}はファイルの送信に成功した時の表示である.
-\figref{fig:ad5}はファイルの送信に失敗した時の表示である.
+あwドアwぢあhを井田hドィダdhわd
+
 
 \begin{thebibliography}{4}
   \bibitem{PHP} PHPマニュアル http://php.net/manual/ja/
